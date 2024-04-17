@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Training Session Recap</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Personal Training Session Recap</h1>
+        <h2>Session Date: 2023-04-12</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#attendance">Attendance</a></li>
+            <li><a href="#workoutPlan">Workout Plan</a></li>
+            <li><a href="#performance">Performance Review</a></li>
+            <li><a href="#misc">Dietary Advice</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="attendance">
+            <h3>Attendance</h3>
+            <ul>
+                <li>Client: Richard Richardson - Present</li>
+                <li>Trainer: Rick Rodness - Present</li>
+            </ul>
+        </section>
+
+        <section id="workoutPlan">
+            <h3>Workout Plan</h3>
+            <ol>
+                <li>Warm-up exercises</li>
+                <li>Strength training routine</li>
+                <li>Cardiovascular set</li>
+                <li>Cool-down stretches</li>
+            </ol>
+        </section>
+
+        <section id="performance">
+            <h3>Performance Review</h3>
+            <p>Discussion on client's improvements and areas needing work, including stamina and strength.</p>
+        </section>
+
+        <section id="misc">
+            <h3>Dietary Advice</h3>
+            <p>Recommendations for dietary adjustments to support workout goals.</p>
+        </section>
+
+        <div>
+            <span>Notes from the trainer</span>
+            <p>Today Richard performed well! We worked on mobility and strength training.</p>
+            <details>
+                <summary>Expand to view exercise tips</summary>
+                <p>Make sure to warm up before each session to avoid injuries.</p>
+                <p>Stay hydrated. Remember hydration happens yesterday.</p>
+            </details>
+        </div>
+
+        <img src="/screenshots/workout-split.jpg" alt="Workout plan diagram" width="400" height="300">
+
+        <figure>
+            <figcaption>Session Workout Chart</figcaption>
+            <img src="session-chart.jpg" alt="Chart illustrating the workout session plan">
+        </figure>
+
+        <audio controls>
+            <source src="session-recording.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <video controls>
+            <source src="session-summary.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </main>
+
+    <footer>
+        <p>© 2024 Rick's Gym - Personal Training Team</p>
+    </footer>
+
+    <form>
+        <fieldset>
+            <legend>Session Feedback Form</legend>
+            <label for="name">Client Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="date">Date of Next Appointment:</label>
+            <input type="date" id="date" name="date"><br><br>
+            <label for="feedback">Session Feedback:</label>
+            <textarea id="feedback" name="feedback"></textarea><br><br>
+            <input type="submit" value="Submit Feedback">
+        </fieldset>
+    </form>
+</body>
+</html>
