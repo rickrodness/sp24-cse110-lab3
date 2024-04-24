@@ -1,19 +1,15 @@
-# Lab 3 - Personal Training Session Recap
+# Lab 3 - CSS and Agile Dev Intro
 
 This repository contains the HTML and CSS for a personal training session recap, styled with various CSS techniques. 
 
 ## Hosted Site
 
 You can view the hosted site at the following link:
-[Lab3 Hosted Site]()
+[Lab3 Hosted Site](https://rickrodness.github.io/sp24-cse110-lab3/)
 
 ## Standup Notes
 
 Standup notes can be found in the `standup.md` file within this repository.
-
-## HTML and CSS
-
-The repository includes the relevant HTML file from Lab 2 and the CSS file created for Lab 3.
 
 ## CSS Validation
 
