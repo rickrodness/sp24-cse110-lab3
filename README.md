@@ -19,4 +19,4 @@ The repository includes the relevant HTML file from Lab 2 and the CSS file creat
 
 Below is a screenshot of the CSS validation:
 
-![CSS Validation Screenshot](/path-to-your-screenshot.png)
+![CSS Validation Screenshot](screenshots/CSS-Validation.png)
