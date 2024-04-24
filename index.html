@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Personal Training Session Recap</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -13,10 +14,10 @@
 
     <nav>
         <ul>
-            <li><a href="#attendance">Attendance</a></li>
-            <li><a href="#workoutPlan">Workout Plan</a></li>
-            <li><a href="#performance">Performance Review</a></li>
-            <li><a href="#misc">Dietary Advice</a></li>
+            <li><a href="#attendance" class="nav-link">Attendance</a></li>
+            <li><a href="#workoutPlan" class="nav-link">Workout Plan</a></li>
+            <li><a href="#performance" class="nav-link">Performance Review</a></li>
+            <li><a href="#misc" class="nav-link">Dietary Advice</a></li>
         </ul>
     </nav>
 
@@ -49,42 +50,27 @@
             <p>Recommendations for dietary adjustments to support workout goals.</p>
         </section>
 
-        <div>
-            <span>Notes from the trainer</span>
-            <p>Today Richard performed well! We worked on mobility and strength training.</p>
-            <details>
-                <summary>Expand to view exercise tips</summary>
-                <p>Make sure to warm up before each session to avoid injuries.</p>
-                <p>Stay hydrated. Remember hydration happens yesterday.</p>
-            </details>
-        </div>
-
         <figure>
             <figcaption>Session Workout Chart</figcaption>
-            <img src="/screenshots/workout-split.jpg" alt="Chart illustrating the workout session plan" width="400" height="300">
+            <img src="screenshots/workout-split.jpg" alt="Workout session plan" width="400" height="300">
         </figure>
 
         <figure>
             <figcaption>Listen to our workout session</figcaption>
             <audio controls>
-                <source src="/website_assets/workout-audio.mp3" type="audio/mpeg">
+                <source src="website_assets/workout-audio.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
         </figure>
-
+        
         <figure>
             <figcaption>Watch Richard hit incline bench</figcaption>
             <video controls width="400" height="300">
-                <source src="/website_assets/training-video.mp4" type="video/mp4">
+                <source src="website_assets/training-video.mp4" type="video/mp4">
                 Your browser does not support the video element.
             </video>
         </figure>
-        
     </main>
-
-    <footer>
-        <p>© 2024 Rick's Gym - Personal Training Team</p>
-    </footer>
 
     <form>
         <fieldset>
@@ -98,5 +84,10 @@
             <input type="submit" value="Submit Feedback">
         </fieldset>
     </form>
+    
+    <footer>
+        <p>© 2024 Rick's Gym - Personal Training Team</p>
+    </footer>
+
 </body>
 </html>
